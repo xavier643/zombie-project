@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.portrait h1 {
+}
+.landscape h1 {
+}
+#main {
+	text-align: center;
+}
+#logo{
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+input[type="number"] {
+    width: 100%;
+    text-align: right;
+}
+/*input[type="submit"] {
+    width: 100px;
+}*/
+#purchase {
+	display: block;
+	margin: auto;
+	width: 100px;
+}
+#gameImage {
+	display: block;
+	margin: auto;
+	width: 70%;
+}
+h5, body {
+	background: lightgrey;
+}
+.logo {
+	padding: 10px;
+	text-align: center;
+}
+#map div[data-role="content"] {
+	position: absolute;
+	top: 42px;
+	bottom: 42px;
+	left: 0;
+	right: 0;
+}
+
+#gMap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.thumbnail {
+	float: right;
+	display: block;
+	margin: 5px 0 15px 5px;
+	border: 2px #fff solid;
+	padding: 2px;
+}
+.clearboth {
+	clear: both;
+}
+.addr {
+	overflow: hidden;
+	position:relative;
+}
+h2 {
+	margin-top: 0;
+}
+.details {
+	display: block;
+	margin: 10px 0;
+}
+div[data-role="controlgroup"] {
+	clear:both;
+	text-align: center;
+}
+div[data-role="content"] {
+	padding-bottom: 40px;
+}
+#loading {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:rgba(0,0,0,.9);
+	z-index:9999;
+}
+.errorMsg {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	z-index:9999;
+	padding: 5px;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+}
+
+#numInput {
+	text-align: center;
+	width: 40%; /* width of screen decides width of objects */
+	padding-left: 30%; /* 1/2 left over width % in order to set the padding */
+}
+
+#labels {
+	text-align: center;
+}
+
+#searchInfo {
+	width: 100%;
+	font-size: 12px;
+}
+
+table {
+	text-align: center;
+	width: 100%;
+	font-size: 12px;
+}
+
+th {
+	background-color: #b30000;
+}
+
+#searchTable {
+}
+
+#even {
+	background-color: darkgrey;
+}
+/* Uncomment this before compiling in order to cause the initial page to fade in
+@media only screen and (max-width: 800px) {
+	#page1 {
+		display: none;
+	}
+}
+*/
